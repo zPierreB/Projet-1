@@ -1,0 +1,280 @@
+@media screen and (min-width: 415px){
+
+    .sign {
+        text-align: center;
+        background-color: rgb(74,74,74);
+        padding: 2px;
+        color: white;
+    }
+    
+    .color {
+        color: rgb(74,74,74);
+    }
+    
+    a:link   {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+    a:active {
+        color: white;
+    }
+    #firstBack {
+        width: 100px;
+        height: 100px;
+        padding: 0px 10px;
+        display: flex;
+        margin: -25px 0px;
+    }
+    .margin-top {
+        margin: 5px 0px;
+        
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .just-betw {
+        justify-content: space-between;
+        margin: 0px 100px;
+    }
+    
+    .center {
+        justify-content: space-between;
+    }
+    
+    .larg-page {
+        width: 100%;
+    }
+    
+    .just-right {
+        justify-content: flex-end;
+    }
+    
+    .pt-li {
+        list-style: none;
+    }
+    
+    .espace {
+        margin: 0px 10px;
+    }
+    
+    .font-size {
+        font-size: 14px;
+    }
+    
+    #bouton-shop {
+        display: inline-block;
+        width: 80px;
+        height: 45px;
+        text-align: center;
+        background-color: rgb(241, 39, 66);
+        color: white;
+        border-radius: 1000px;
+        align-items: center;
+    }
+    
+    #bouton-shop:hover {
+        border: 10px;
+        border-color: rgb(68, 7, 19);
+    }
+    
+    #menu-experiences {
+        color: rgb(74,74,74);
+        list-style: none;
+    
+    }
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.partie a{
+    text-decoration: none;
+    color: red;
+}
+.partie img{
+    width: 400px;
+    height: 300px;
+}
+
+.partie5 video{
+    width: 400px;
+    height: 300px;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+}
+
+.partie p{
+    width: 400px;
+}
+
+.partie{
+    padding: 7%;
+    margin-left: 5%;
+    
+}
+
+.Formulaire{
+    background-color: slategray;
+    
+}
+
+.formulair{
+    display: inline;
+    margin-right: 3%;
+    
+}
+
+.button.is-primary {
+    background-color: #ff0000;
+    border-color: transparent;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 9999px;
+    font-size: 150%;
+}
+
+footer{
+    background-color: slategray;
+    color: black;
+    padding: 1em;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:55vh; 
+}
+
+.content{
+    width: 4OOpx;
+    height: 200px;
+    margin: 0px 1em 12px 33px;   
+    
+}
+
+footer a{
+    background-color: slategray;
+    font-size: 16px;
+    padding:5px;
+    width:auto;
+    color: white;
+    justify-content: flex-start;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+
+
+}
+@media screen and (max-width: 414px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .partie a{
+        text-decoration: none;
+        color: red;
+        
+    }
+    .partie img{
+        width: 400px;
+        height: 300px;
+    }
+    
+    h1{
+        text-align: center;
+        width: 400px; 
+    }
+    
+    h2{
+        text-align: center;
+        width: 400px;
+    }
+    
+    p{
+        font-size: 22px;
+        text-align: center;
+        width: 400px;
+    }
+    
+    .container{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        
+    }
+    
+    .partie{
+        margin-left: 3.5px;
+        margin-bottom: 8%;
+    }
+
+    .Formulaire{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: slategray;
+        
+    }
+
+    .formulair{
+        margin-top: 5%;
+    }
+
+    
+
+    .button.is-primary {
+        background-color: #ff0000;
+        border-color: transparent;
+        color:#fff;
+        cursor: pointer;
+        border-radius: 9999px;
+        font-size: 150%;
+        
+        
+    }
+
+    footer{
+        background-color: slategray;
+        color: black;
+        padding: 1em;
+        display:flex;
+        flex-direction:column; 
+    }
+    
+    .content{
+        width: 100%;
+        margin: 0px 5em 0px -0.20em;
+           
+        
+    }
+    
+    footer a{
+        background-color: slategray;
+        font-size: 16px;
+        padding:5px;
+        width:auto;
+        color: white;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+    }
+
+
+}
