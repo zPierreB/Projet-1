@@ -1,0 +1,35 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.sign_in img{
+    width:130px;
+    height:auto;
+    align-self: start;
+}
+.sign_in{
+    text-align:center;
+    padding:100px;
+    background-color: #f3f4f4;
+    color:rgba(55,55,55,0.6);
+}
+hr{
+    width:15%
+}
+form input{
+    border-radius: 5px;.
+}
+h3{
+    color:rgba(55,55,55,0.8);
+}
+#buttonletsgo{
+    background-color:red;
+    padding:10px 30px ;
+    border-radius:20px;
+}
+.sign_in p a{
+    text-decoration:none;
+    color:red;
+}
+.sign_in p {
+    font-size: 15px;
+}
