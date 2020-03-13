@@ -1,0 +1,127 @@
+
+body {
+  background-color: tan;
+}
+
+@media screen and (min-width: 992px) {
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Partie {
+
+  width: 30%;
+  height: 300px;
+  justify-content: center;
+}
+
+   
+
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+h1 {
+  font-size: 25px;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+}
+
+.block {
+  text-align: center;
+}
+
+.button {
+  background-color: red;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sign {
+  text-align: center;
+  background-color: rgb(74,74,74);
+  padding: 2px;
+  color: white;
+}
+
+.color {
+  color: rgb(74,74,74);
+}
+
+
+#firstBack {
+  width: 100px;
+  height: 100px;
+  padding: 0px 10px;
+  display: flex;
+  margin: -25px 0px;
+}
+.margin-top {
+  margin: 5px 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.just-betw {
+  justify-content: space-between;
+  margin: 0px 100px;
+}
+
+.center {
+  justify-content: space-between;
+}
+
+.larg-page {
+  width: 100%;
+}
+
+.just-right {
+  justify-content: flex-end;
+}
+
+.pt-li {
+  list-style: none;
+}
+
+.espace {
+  margin: 0px 10px;
+}
+
+.font-size {
+  font-size: 14px;
+}
+
+
+
+#menu-experiences {
+  color: rgb(74,74,74);
+  list-style: none;
+
+}
+  
+ .back-color {
+   background-color: white;
+ }  
+       
+    
+      
